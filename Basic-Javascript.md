@@ -63,3 +63,13 @@ var lastElement = array.pop();
 // Remove first element
 var firstElement = array.shift();
 ```
+
+## Function
+``` Javascript
+function printToConsole() {
+    console.log("Hello world");
+}
+function sum(a,b) {
+    return a + b;
+}
+```
