@@ -18,3 +18,31 @@ let myName = "Abby";
 // Varable that never change
 const pi = 3.14;
 ```
+
+## Operators
+``` Javascript
+// Addition
+var a = 1 + 2;
+// Subtraction
+var a = 5 - 1;
+// Multiplication
+var a = 3 * 3;
+// Division
+var a = 10 / 2
+// Incrementing
+var a = a++;
+a += 1;
+// Decrementing
+var a = a--;
+a -= 1;
+// Remainder
+var remainder = 11 % 3;
+// Escape quotaion mark
+var str = "this is quotation mark \"";
+// Put string in single quotation mark (or back tick) to escape double quotation
+var str = 'this is quotation mark "';
+// New line
+\n
+// String concatenation
+var str = "first" + "second";
+```
