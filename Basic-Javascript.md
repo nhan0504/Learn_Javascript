@@ -41,8 +41,25 @@ var remainder = 11 % 3;
 var str = "this is quotation mark \"";
 // Put string in single quotation mark (or back tick) to escape double quotation
 var str = 'this is quotation mark "';
-// New line
-\n
+// New line, tab
+\n \t
 // String concatenation
 var str = "first" + "second";
+```
+
+## Array
+``` Javascript
+var array = ["number", 1];
+// Nested array
+var nestedArray = [["hello", "world"], ["number", 2]];
+// Get element in an array and modify
+var data = array[1] + 1;
+// Append an element
+array.push(3);
+// Add to the beginning of an array
+array.unshift("Hello");
+// Remove last element
+var lastElement = array.pop();
+// Remove first element
+var firstElement = array.shift();
 ```
