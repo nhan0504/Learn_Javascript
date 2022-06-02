@@ -73,6 +73,8 @@ function printToConsole() {
 function sum(a,b) {
     return a + b;
 }
+// Another way to write function
+var a = (a, b) => a + b
 ```
 
 ## Comparing operators
@@ -131,4 +133,14 @@ Math.floor(Math.random() * 10); // Return a random number between 0 and 10
 parseInt(str);
 // Convert binary number
 parseInt("10111", 2) // Turn the binary number into integer
+```
+
+## Other functions
+``` Javascript
+// Make an object nonmodifiable
+var dog = {
+    "name": "Casper",
+    "legs": 4
+};
+Object.freeze(dog);
 ```
