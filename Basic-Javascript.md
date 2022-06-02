@@ -182,3 +182,9 @@ const avg({age, height}) {
 }
 console.log(avg(dog));
 ```
+
+## String temlate literal
+``` Javascript
+// Put variable in string: Use back tick
+const greeting = `Hello my name is ${name}`;
+```
