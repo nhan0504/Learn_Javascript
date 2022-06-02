@@ -144,3 +144,41 @@ var dog = {
 };
 Object.freeze(dog);
 ```
+
+## Higher order function
+``` Javascript
+// If no number is pass in for arg value, it is default to 1
+function increment(num, value = 1) {
+    return num + value
+}
+// Rest operator: Take in any number of argument and put into an array called args
+function sum(...args) {
+    return args.reduce((a, b) => a + b, 0);
+}
+// Spread opreator: Get all the element in an array
+const arr1 = [1, 2, 3];
+let arr2 = [...arr1];
+// Destructuring of object: Put values of object into variables
+var dog = {
+    "name": "Casper",
+    "legs": 4
+};
+const {name : dogName, legs : numLegs} = dog;
+// Destructuring of array
+// Set z to 4
+const [x, y, , z] = [1, 2, 3, 4, 5];
+// Switch a and b
+let a = 1, b = 2; 
+[a, b] = [b, a]
+// Pass object into function as argument: Only get age and height of the object pass in
+var dog = {
+    "name": "Casper",
+    "legs": 4,
+    "age" : 5
+    "height": 70
+};
+const avg({age, height}) {
+    return height / age;
+}
+console.log(avg(dog));
+```
