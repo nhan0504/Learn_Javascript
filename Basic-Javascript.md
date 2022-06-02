@@ -120,3 +120,15 @@ while (i < 5) {}
 do {}
 while (i < 5)
 ```
+
+## Math function
+``` Javascript
+// Return a random number in the range [0, 1)
+Math.random();
+// Round down
+Math.floor(Math.random() * 10); // Return a random number between 0 and 10
+// String to integer
+parseInt(str);
+// Convert binary number
+parseInt("10111", 2) // Turn the binary number into integer
+```
