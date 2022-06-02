@@ -109,3 +109,14 @@ delete dog.bark;
 // Check if an object contains a property
 dog.hasOwnProperty("name");
 ```
+
+## Loop
+``` Javascript
+// For loop
+for (var i = 0; i < arr.length; i++) {}
+// While loop
+while (i < 5) {}
+// Do while loop
+do {}
+while (i < 5)
+```
