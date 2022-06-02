@@ -199,3 +199,11 @@ console.log(avg(dog));
 // Put variable in string: Use back tick
 const greeting = `Hello my name is ${name}`;
 ```
+
+## Export and import
+- `export` a function from a file
+- `import` to use a function from another file
+``` Javascript
+export const capitalizeStr = str => str.toUpperCase();
+import { capitalizeStr } from "./";
+```
