@@ -92,3 +92,20 @@ a < b
 a && b
 a || b
 ```
+
+## Object
+``` Javascript
+var dog = {
+    "name": "",
+    "legs": 1000
+};
+// Accessing value
+var name = dog.name;
+var legs = dog["legs"];
+// Add a property
+dog["bark"] = "woof";
+// Remove a property
+delete dog.bark;
+// Check if an object contains a property
+dog.hasOwnProperty("name");
+```
