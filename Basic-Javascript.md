@@ -110,6 +110,17 @@ dog["bark"] = "woof";
 delete dog.bark;
 // Check if an object contains a property
 dog.hasOwnProperty("name");
+// Concise declaration
+const dog = (name, legs) => ({name, legs})
+dog(Casper, 4);
+// Constructor
+class Dog {
+    constructor(name, legs) {
+        this.name = name;
+        this.legs = legs;
+    }
+}
+var myDog = new Dog("Casper", 4);
 ```
 
 ## Loop
