@@ -204,6 +204,9 @@ const greeting = `Hello my name is ${name}`;
 - `export` a function from a file
 - `import` to use a function from another file
 ``` Javascript
+// Import a function from another file
 export const capitalizeStr = str => str.toUpperCase();
 import { capitalizeStr } from "./";
+// Import a default export
+import subtract from "math_functions";Export 
 ```
