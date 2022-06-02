@@ -12,9 +12,9 @@ comment
 ## Data types and variable
 - Undefined, null, boolean, string, symbol, number, and object
 ``` Javascript
-// Can be used through out the whole program
+// Globally. If declared inside a function -> Locally
 var name = "Abby";
-// Can only used in the scope that it is declared
+// The scope of let is limited to the block statement that it was declared in
 let myName = "Abby";
 // Varable that never change
 const pi = 3.14;
@@ -96,8 +96,8 @@ a || b
 ## Object
 ``` Javascript
 var dog = {
-    "name": "",
-    "legs": 1000
+    "name": "Casper",
+    "legs": 4
 };
 // Accessing value
 var name = dog.name;
