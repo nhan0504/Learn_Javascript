@@ -2,6 +2,7 @@
 ## Comment
 ``` Javascript
 // In-line comment
+
 /*
 multi-line
 comment
@@ -72,4 +73,22 @@ function printToConsole() {
 function sum(a,b) {
     return a + b;
 }
+```
+
+## Comparing operators
+``` Javascript
+// Equal: Convert type so 3 == '3' return true
+a == b
+// Strict equal: Doesn't convert type so 3 === '3' return false
+a === b
+// Inequality
+a != b
+// Strict inequality
+a !== b
+// Greater than or less than
+a > b
+a < b
+// And Or
+a && b
+a || b
 ```
