@@ -1,5 +1,17 @@
-# Javascript
-## Comment
+- [Comment](#comment)
+- [Data types and variable](#data-types-and-variable)
+- [Operators](#operators)
+- [Array](#array)
+- [Function](#function)
+- [Comparing operators](#comparing-operators)
+- [Object](#object)
+- [Loop](#loop)
+- [Math function](#math-function)
+- [Other functions](#other-functions)
+- [Higher order function](#higher-order-function)
+- [String temlate literal](#string-temlate-literal)
+- [Export and import](#export-and-import)
+# Comment
 ``` Javascript
 // In-line comment
 
@@ -9,7 +21,7 @@ comment
 */
 ```
 
-## Data types and variable
+# Data types and variable
 - Undefined, null, boolean, string, symbol, number, and object
 ``` Javascript
 // Globally. If declared inside a function -> Locally
@@ -20,7 +32,7 @@ let myName = "Abby";
 const pi = 3.14;
 ```
 
-## Operators
+# Operators
 ``` Javascript
 // Addition
 var a = 1 + 2;
@@ -48,7 +60,7 @@ var str = 'this is quotation mark "';
 var str = "first" + "second";
 ```
 
-## Array
+# Array
 ``` Javascript
 var array = ["number", 1];
 // Nested array
@@ -65,7 +77,7 @@ var lastElement = array.pop();
 var firstElement = array.shift();
 ```
 
-## Function
+# Function
 ``` Javascript
 function printToConsole() {
     console.log("Hello world");
@@ -77,7 +89,7 @@ function sum(a,b) {
 var a = (a, b) => a + b
 ```
 
-## Comparing operators
+# Comparing operators
 ``` Javascript
 // Equal: Convert type so 3 == '3' return true
 a == b
@@ -95,7 +107,7 @@ a && b
 a || b
 ```
 
-## Object
+# Object
 ``` Javascript
 var dog = {
     "name": "Casper",
@@ -123,7 +135,7 @@ class Dog {
 var myDog = new Dog("Casper", 4);
 ```
 
-## Loop
+# Loop
 ``` Javascript
 // For loop
 for (var i = 0; i < arr.length; i++) {}
@@ -134,7 +146,7 @@ do {}
 while (i < 5)
 ```
 
-## Math function
+# Math function
 ``` Javascript
 // Return a random number in the range [0, 1)
 Math.random();
@@ -146,7 +158,7 @@ parseInt(str);
 parseInt("10111", 2) // Turn the binary number into integer
 ```
 
-## Other functions
+# Other functions
 ``` Javascript
 // Make an object nonmodifiable
 var dog = {
@@ -156,7 +168,7 @@ var dog = {
 Object.freeze(dog);
 ```
 
-## Higher order function
+# Higher order function
 ``` Javascript
 // If no number is pass in for arg value, it is default to 1
 function increment(num, value = 1) {
@@ -194,13 +206,13 @@ const avg({age, height}) {
 console.log(avg(dog));
 ```
 
-## String temlate literal
+# String temlate literal
 ``` Javascript
 // Put variable in string: Use back tick
 const greeting = `Hello my name is ${name}`;
 ```
 
-## Export and import
+# Export and import
 - `export` a function from a file
 - `import` to use a function from another file
 ``` Javascript
